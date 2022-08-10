@@ -1,3 +1,10 @@
+"""
+Bottom-up implementation, pythonic
+
+Taken from 'Elements of programming interviews in Python'
+"""
+
+
 def fibonacci(n, cache={}):
     if n <= 1:
         return n
@@ -6,4 +13,4 @@ def fibonacci(n, cache={}):
     return cache[n]
 
 
-print(fibonacci(900))
+print(fibonacci(998))
